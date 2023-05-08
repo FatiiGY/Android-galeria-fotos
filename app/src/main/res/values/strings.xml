@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FolderPix</string>
+
+    <string name="folderName">Folder name</string>
+    <string name="appName">Simple image gallery</string>
+    <string name="empty">There are no images on this device</string>
+    <string name="photos_name">Gallery</string>
+
+</resources>

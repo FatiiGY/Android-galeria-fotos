@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".CamaraActivity">
+
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="668dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="-1dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="69dp"
+        android:clickable="true"
+        app:backgroundTint="@color/grey"
+        app:maxImageSize="40dp"
+        app:srcCompat="@drawable/camaraicono" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/botongaleria"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="69dp"
+        android:clickable="true"
+        app:backgroundTint="#838181"
+        app:maxImageSize="40dp"
+        app:srcCompat="@drawable/galeriaicono" />
+
+    <Spinner
+        android:id="@+id/spinAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:alpha="1"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="src_in"
+        android:spinnerMode="dialog" />
+
+
+</RelativeLayout>
